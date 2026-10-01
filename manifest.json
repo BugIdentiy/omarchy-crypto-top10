@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "io.github.bugidentiy.crypto-top10",
+  "name": "Crypto Top 10",
+  "version": "1.0.0",
+  "author": "BugIdentiy",
+  "description": "Cycle through the top 10 cryptocurrencies by market cap, priced in euros.",
+  "kinds": ["bar-widget"],
+  "entryPoints": {
+    "barWidget": "BarWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "Crypto Top 10",
+    "description": "Top 10 cryptocurrencies by market capitalization, in EUR",
+    "category": "Info",
+    "defaultSection": "right",
+    "allowMultiple": false
+  }
+}
